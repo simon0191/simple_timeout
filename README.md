@@ -37,13 +37,13 @@ Add this line to your application’s Gemfile:
 ```ruby
 gem 'simple_timeout'
 ```
-sadfasdf
+
 And then execute:
 
 ```sh
 bundle
 ```
-asdasdf
+
 ## History
 
 View the [changelog](https://github.com/simon0191/simple_timeout/blob/master/CHANGELOG.md)
