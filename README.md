@@ -2,7 +2,12 @@
 
 A simple implementation of Timeout.
 
-The standard `Timeout::timeout` will always wait until the block finishes execution, and then, when the thread where the block is been executed can't be killed for some reason, your whole program get blocked. `SimpleTimeout::timeout` lets you choose if you want to wait for the block to finish execution or not. By default it won't wait.
+The standard `Timeout::timeout` will always wait until the block finishes execution, and then, when the thread where the block is being executed can't be killed for some reason, your whole program get blocked. `SimpleTimeout::timeout` lets you choose if you want to wait for the block to finish execution or not. By default it won't wait.
+
+[![Build Status](https://travis-ci.org/simon0191/simple_timeout.svg)](https://travis-ci.org/simon0191/simple_timeout)
+[![Code Climate](https://codeclimate.com/github/simon0191/simple_timeout/badges/gpa.svg)](https://codeclimate.com/github/simon0191/simple_timeout)
+[![Test Coverage](https://codeclimate.com/github/simon0191/simple_timeout/badges/coverage.svg)](https://codeclimate.com/github/simon0191/simple_timeout/coverage)
+[![Gem Version](https://badge.fury.io/rb/simple_timeout.svg)](https://badge.fury.io/rb/simple_timeout)
 
 ## Usage
 
